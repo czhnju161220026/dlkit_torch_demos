@@ -10,18 +10,20 @@ from pytorch_demos.demo6.entry import main as pt_m6
 from pytorch_demos.demo7.entry import main as pt_m7
 from pytorch_demos.demo8.entry import main as pt_m8
 from pytorch_demos.demo9.entry import main as pt_m9
+from pytorch_demos.demo10.entry import main as pt_m10
 from datetime import datetime
 
 tasks = {
-    'Pytorch Mnist': pt_m1,
-    'Dcgan': pt_m2,
-    'Vae': pt_m3,
-    'Mnist hogwild': pt_m4,
-    'Regression': pt_m5,
-    'LSTM wave': pt_m6,
-    'LSTM Name classify': pt_m7,
-    'LSTM Name generating': pt_m8,
-    'Word languagle model': pt_m9
+    #'Pytorch Mnist': pt_m1,
+    #'Dcgan': pt_m2,
+    #'Vae': pt_m3,
+    #'Mnist hogwild': pt_m4,
+    #'Regression': pt_m5,
+    #'LSTM wave': pt_m6,
+    #'STM Name classify': pt_m7,
+    ##'LSTM Name generating': pt_m8,
+    #'Word languagle model': pt_m9,
+    'My CNN': pt_m10
 }
 
 
